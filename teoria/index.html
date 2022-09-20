@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso de HTML e CSS</title>
+
+    <!-- 10 - estilo no head -->
+    <style>
+      body {
+        padding-bottom: 500px;
+      }
+    </style>
+
+    <!-- 16 - Adicionando arquivo de CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- 1 - Elementos do HTML -->
+    <!-- Ensinar sintaxe das tags -->
+    <h1>Meu título</h1>
+    <p>Meu parágrafo</p>
+
+    <!-- 2 - Títulos -->
+    <h1>Mais um título</h1>
+    <h2>Outro título</h2>
+    <h3>E outro!</h3>
+
+    <!-- 3 - Parágrafos -->
+    <p>Este é um parágrafo, e tem um texto maior.</p>
+
+    <!-- 4 - Atributos -->
+    <!-- Explicar que várias tags tem atributo e sua importância -->
+    <a href="https://www.google.com">Acessar o Google</a>
+
+    <!-- 5 - Elemento sem fechamento -->
+    <br />
+    <hr />
+
+    <!-- 6 - Imagem -->
+    <img src="img/meteoro.jpg" />
+    <hr />
+
+    <!-- 7 - Atributo alt das imagens -->
+    <img src="img/praia.jpg" alt="Uma praia" />
+    <hr />
+
+    <!-- 8 - Imagem da web -->
+    <img
+      src="https://seeklogo.com/images/H/html5-with-wordmark-black-white-logo-A6222B77EC-seeklogo.com.png"
+      alt="logo HTML"
+    />
+
+    <!-- 9 - atributo style -->
+    <p style="color: red">Olá, estou vermelho!</p>
+
+    <!-- 11 - Comentários, inserir comentário em cada seção -->
+
+    <!-- 12 - Div -->
+    <!-- Explicar o aninhamento de tags -->
+    <div>
+      <h3>Produto x</h3>
+      <p>R$: 50,00</p>
+      <a href="#">Comprar</a>
+    </div>
+
+    <!-- 13 - Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>ID:</th>
+          <th>Nome:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Matheus</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>João</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- 14 - Listas -->
+    <ul>
+      <li>Maçã</li>
+      <li>Laranja</li>
+      <li>Limão</li>
+    </ul>
+
+    <ol>
+      <li>Estudar HTML</li>
+      <li>Estudar CSS</li>
+      <li>Estudar JavaScript</li>
+    </ol>
+
+    <!-- 15 - Elemento de bloco e inline -->
+    <p>Uma linha</p>
+    <p>Outra linha</p>
+    <span>Mesma </span><span>Linha </span><span>Para todos</span>
+
+    <!-- 17 - regra de CSS no elemento -->
+    <h2>Testando o CSS</h2>
+
+    <!-- 18 - ID -->
+    <h3 id="title">Este título tem id</h3>
+    <h3>Este título não tem id</h3>
+
+    <!-- 19 - Classe -->
+    <p class="text">Meu parágrafo</p>
+    <p class="text">Que tem estilos</p>
+    <p class="text">Iguais a outros</p>
+
+    <!-- 20 - Background -->
+    <p class="background">Mude o meu background</p>
+
+    <!-- 21 - Dois elementos e uma regra -->
+    <p>Teste</p>
+    <h5 class="title-small">Título h5</h5>
+
+    <!-- 22 - background image -->
+    <h3 class="background-image">Testando imagem no background</h3>
+
+    <!-- 23 - conceito de box model slide -->
+
+    <!-- 24 - largura e altura -->
+    <div id="width-height"></div>
+
+    <!-- 25 - padding -->
+    <div id="padding">Testando padding</div>
+
+    <!-- 26 - margin -->
+    <div id="margin">Testando margin</div>
+
+    <!-- 27 - border -->
+    <div id="border">Testando border</div>
+
+    <!-- 28 - border radius -->
+    <div id="border-radius">Raio na borda</div>
+
+    <!-- 29 - cores -->
+    <div id="hex"></div>
+    <div id="rgb"></div>
+    <div id="hsl"></div>
+
+    <!-- 30 - alinhamento de texto -->
+    <div id="center">
+      <p>Alinhado ao centro</p>
+    </div>
+
+    <!-- 31 - decoration -->
+    <p id="underline">Underline</p>
+    <p id="line">Linha no texto</p>
+
+    <!-- 32 - font size -->
+    <p>Aumentar fonte de todos os parágrafos</p>
+
+    <!-- 33 - transform -->
+    <p id="upper">todo em caixa alta</p>
+    <div id="lower">TODO EM CAIXA BAIXA</div>
+
+    <!-- 34 - alteração de fonte -->
+    <p id="serif">Exemplo de fonte serifada</p>
+    <p id="sans-serif">Exemplo de fonte sem serifa</p>
+    <p id="cursive">Exemplo de fonte cursiva</p>
+
+    <!-- 35 - display -->
+    <div class="inline"></div>
+    <div class="inline"></div>
+    <div class="inline"></div>
+
+    <span class="block">a</span>
+    <span class="block">a</span>
+    <span class="block">a</span>
+
+    <!-- 36 - ocultando elementos -->
+    <p id="none">Estou invisivel</p>
+
+    <!-- 37 - position -->
+    <div id="relative"></div>
+    <p>Relativo ficou na frente</p>
+
+    <div id="absolute"></div>
+
+    <div id="fixed"></div>
+
+    <!-- 38 - relative com absolute -->
+    <div id="relative-2">
+      <div class="absolute-1"></div>
+      <div class="absolute-2"></div>
+    </div>
+  </body>
+</html>
